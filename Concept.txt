@@ -1,0 +1,24 @@
+           conept of Registerpage.jsx
+
+>>[name]: name === "profileImage" ? files[0] : value updates the property of formData corresponding to the name attribute
+ of the input field. If the name is "profileImage", it assigns the first file in the files array (i.e., files[0]), otherwise, it assigns the value.
+
+>> basically useStates hooks are used to update or make update visisble on ui so it rerenders ui again
+>>...formData uses the spread operator to copy all existing properties of the formData object. like you are entering the 2nd name then it will keep first
+ name which you have already typed.it will not be erased
+
+>> so we have installed react redux and redux-persist
+>> redux persist is basically used for maintaining the state as they were eg. if a user directly close the window then its history or login info will be stored
+>> they can access to their previous state when they reopen so that they will not loss information what did they have done till now
+
+
+    for Server file
+>> npm i -g nodemon
+>>npm i express body-parser
+>>npm i bcrypt.js cors dotenv 
+>> npm i multer-gridfs-storage  // used purpose id to handle uploaded image while login
+>>npm i jsonwebtoken mongoose
+
+
+>> in ListingCars.jsx components file we have used formula to move images see screenshot saved
+>>This option automatically adds createdAt and updatedAt fields to the schema, which store the timestamps for when each document is created and last updated.

@@ -1,0 +1,23 @@
+>> NPX does not locally install software. It enables you to run packages straight from the npm registry without installing them globally or locally, maintaining a clean and segregated execution environment.
+
+>>NPX allows you to run and use packages without having to install them locally or globally. If a package is installed while using NPX to run NPM executables, NPX will search for the package binaries (locally or globally) and then run the package.
+>>npx offers several advantages over npm when running packages, especially when dealing with global and different versions. No Global Installation Required: npx allows you to execute packages without the need to install them globally
+>>redux-persist is used to maintain the state
+steps for different installation you followed
+>> npx create-react-app client
+>>cd client 
+>>npm i react-router-dom sass @mui/material @emotion/react @emotion/styled @mui/icons-material
+>> npm i react-redux @reduxjs/toolkit redux-persist // to install react redux     
+>> npm i react-beautiful-dnd  (drag and drop package for uploading file or photos easily and beautifully in create-listing)
+
+
+
+// for server file
+>> npm i -g nodemon
+>>npm i express body-parser
+>>npm i bcrypt.js cors dotenv 
+>> npm i multer-gridfs-storage  // used purpose id to handle uploaded image while login
+>>npm i jsonwebtoken mongoose
+
+>> npm i react-date-range  // for making of calender while doing booking  of homes in ListingDetails.jsx
+>> npm i react date-fns   // work as dependecies for react-date-range package
