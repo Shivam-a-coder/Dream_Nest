@@ -60,7 +60,7 @@ const Navbar = () => {
             <Person sx={{ color: variables.darkgrey }} />  // person icon or else fetch profile photo
           ) : (
             <img
-              src={`http://localhost:3001/${user.profileImagePath.replace(
+              src={`https://dream-nest-djpm.onrender.com/${user.profileImagePath.replace(
                 "public",
                 ""
               )}`}
