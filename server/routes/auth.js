@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const jwt = require("jsonwebtoken");
 const multer = require("multer");
 
@@ -14,8 +14,7 @@ const storage = multer.diskStorage({
     filename: function (req, file, cb) {
       cb(null, file.originalname); // Use the original file name
     },
-  });
-
+  });gi 
   const upload = multer({ storage });
   
   /* USER REGISTER */
